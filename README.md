@@ -121,4 +121,4 @@ Setup asks you first, and no answer means no. With your yes, Railset sends usage
 
 The full list: which command or setup step ran, when, how long it took, how it ended and the kind of failure from Railset's own list; which of Railset's files Claude read; which agent started it; which step of getting started was under way; the kind of computer and its chip; Railset's version and the short id of the save a release was built from; whether the run had a terminal, ran in CI or was a test build; a number for each run; and Railset's housekeeping, such as how far a send got. If you send a problem report, it also holds the last day of this, and the words you wrote.
 
-To stop, type `railset data-sharing off` in Terminal, or ask Claude to. Data already sent can't be taken back from your side, so to have it deleted, send me what this line prints: `grep ^computer ~/.railset/settings.toml`
+To stop, type `railset data-sharing off` in Terminal, or ask Claude to. Data already sent can't be taken back from your side, so to have it deleted, send me what this line prints: `grep ^computer ~/.railset/settings.toml` to hello@railset.app
