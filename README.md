@@ -70,15 +70,17 @@ From then on, in that folder:
 
 ## Commands
 
-What `railset help` prints in version 0.2.0:
+What `railset help` prints in version 0.2.4:
 
 ```text
 ▗▛━━━▜▖  railset
 Railset gives your coding agent a disciplined way to build software.
 
 For you:
-  railset setup                 Set up a folder for your idea
+  railset setup                 Set up an idea, or a project that already exists
   railset github sign-in        Sign in to GitHub again when saving there stops
+  railset update                Get the newest Railset
+  railset uninstall             Remove Railset, keeping your work as it is
   railset data-sharing          See or change whether you share usage data
   railset problem-report [...]  Send the Railset team a problem report
   railset log                   Check that Railset is working, and see its runs
@@ -111,8 +113,11 @@ Run by git itself, in a project setup made, for each push:
 Run by Railset itself, in the background, after a yes to Data sharing:
   railset send                  Sends usage data to the Railset team
 
+Run by Railset itself, in the background, about once a day:
+  railset check-for-update      Asks GitHub whether a new Railset is out
+
 Run by the line that installs Railset:
-  railset install               Makes new Terminal windows find Railset
+  railset install               Readies new windows and updates the plugin
 ```
 
 ## What Railset shares, and how to stop it
